@@ -95,6 +95,75 @@ font-size: 18px;
     }
 }
 
+@media(max-width:600px){
+    .black_background{
+        width: 290px;
+    }
+    .email_input{
+        width: 28vw;
+    }
+    .subscribe_button{
+width: 5rem;
+    }
+    .email_section_text_only>p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media(max-width:500px){
+    .black_background{
+        width: 200px;
+    }
+    .email_input{
+        width: 25vw;
+    }
+    .subscribe_button{
+        width: 4rem;
+        font-size: 12px;
+    }
+    .email_section_text_only>p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+
+@media(max-width:320px){
+    .black_background{
+        display: none;
+    } 
+    .subscribe_button{
+       background-color: #000;
+       border-radius: 5px;
+       width: 5rem;
+    }
+    .email_input_button{
+top: 8rem;
+align-items: center;
+display: flex;
+bottom: 8px;
+left: 1rem;
+right: 10px;
+    }
+    .email_input{
+        width: 51vw;
+    }
+    .email_section_text_only{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .email_section_text_only>p{
+font-size: 14px;
+line-height: 2px;
+    }
+
+}
 
 
 
