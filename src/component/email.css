@@ -1,0 +1,74 @@
+
+
+
+
+  
+.email_section_master{
+width:100%;
+height:250.79px;
+background-color: #FAC710;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.email_section_submaster{
+    width: 90%;
+    height:200.06px;
+    border: 3px solid black;
+    position: relative;
+
+}
+.email_section_text_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 15px;
+}
+.black_background{
+    width: 600px;
+    position: absolute;
+    right: 7px;
+    top: 1rem;
+    padding-right: 2rem;
+    background-color: black;
+    height: 10.9rem;
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.email_input_button{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    right: 2rem;
+    gap: 1rem;
+    top: 5.5rem;
+}
+.email_input{
+    height: 40.78px;
+    width: 32vw;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+
+.subscribe_button{
+    width: 8rem;
+    height: 41.78px;
+    background-color: inherit;
+    border: 1px solid violet;
+    color: #fff;
+    border-radius: 2px;
+    outline: none;
+}
+.email_section_text_only>p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+line-height: 3px;
+font-size: 18px;
+}
+
+
