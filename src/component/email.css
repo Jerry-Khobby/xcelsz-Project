@@ -1,11 +1,7 @@
 
-
-
-
-  
 .email_section_master{
 width:100%;
-height:250.79px;
+height:210.79px;
 background-color: #FAC710;
 align-items: center;
 justify-content: center;
@@ -13,7 +9,7 @@ display: flex;
 }
 .email_section_submaster{
     width: 90%;
-    height:200.06px;
+    height:178.06px;
     border: 3px solid black;
     position: relative;
 
@@ -29,12 +25,17 @@ display: flex;
     width: 600px;
     position: absolute;
     right: 7px;
-    top: 1rem;
+    top: 0.6rem;
     padding-right: 2rem;
     background-color: black;
-    height: 10.9rem;
+    height: 10.1rem;
     clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+
+
+/* the media query for 1024px screen  */
+
+
 
 .email_input_button{
     position: absolute;
@@ -59,10 +60,15 @@ display: flex;
     width: 8rem;
     height: 41.78px;
     background-color: inherit;
-    border: 1px solid violet;
+    border: 1px solid #FAC710;
     color: #fff;
     border-radius: 2px;
     outline: none;
+}
+.subscribe_button:hover{
+    background-color: #FAC710;
+    color: #000;
+
 }
 .email_section_text_only>p{
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -70,5 +76,25 @@ font-weight: 400;
 line-height: 3px;
 font-size: 18px;
 }
+@media(max-width: 1024px){
+    .black_background{
+        width: 480px;
+    }
+}
+
+
+@media(max-width:768px){
+    .black_background{
+        width: 370px;
+    }
+    .email_input{
+        width: 30vw;
+    }
+    .email_section_text_only>p{
+        font-size: 15px;
+    }
+}
+
+
 
 
