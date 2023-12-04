@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './email.css';
 import image from "../asset/Finish line-cuate 1.png"
 
@@ -25,6 +25,17 @@ const EmailSection = () => {
     }, 3000);
   };
 
+  useEffect(() => {
+    // Automatically hide the alert after 15 seconds
+    const timeoutId = setTimeout(() => {
+      setShowAlert(false);
+    }, 15000);
+
+    return () => {
+      // Clear the timeout if the component unmounts or if the alert is manually closed
+      clearTimeout(timeoutId);
+    };
+  }, [showAlert]);
   return (
     <div className="email_section_master">
       <div className="email_section_submaster">
